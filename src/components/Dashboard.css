@@ -1,0 +1,29 @@
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.car-status-counts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.quick-access-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.quick-access-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.quick-access-buttons button:hover {
+  background-color: #0056b3;
+}
